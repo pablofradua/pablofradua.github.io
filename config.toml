@@ -1,0 +1,8 @@
+baseURL = 'https://pablofradua.github.io'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'pablo'
+
+[security]
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', "^asciidoctor$"]
